@@ -15,16 +15,16 @@
     --color-db-varint: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-varint: rgba(77, 181, 255, 0.4);
-    --color-white: #fff;
+    --color-white: #ffffff;
     --color-light: rgba(255, 255, 255, 0.6);
-    --color-bg-variant: rgba(0, 26, 255, 0.301);
+    --color-bg-variant: rgba(13, 25, 137, 0.764);
     --color-primary-variant: rgba(128, 128, 128, 0.575);
     
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 }
 
 html {
@@ -51,7 +51,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-weight: 500;
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
 h1 {
