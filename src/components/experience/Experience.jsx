@@ -7,11 +7,12 @@ const Experience = () => {
     <section id='experience'>
       <h5>What Skills i have</h5>
       <h2>my experience</h2>
-
+      <br />
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
+
             <article className='experience__detail'>
                 <AiFillCheckCircle className='experience__detail-icon' />
               <div>
@@ -47,6 +48,7 @@ const Experience = () => {
                 <small className='text-light'>Basic</small>
               </div>
             </article>
+            
           </div>
         </div>
         <div className="experience__backend">

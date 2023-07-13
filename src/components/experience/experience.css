@@ -13,9 +13,10 @@
 }
 
 .experience__container > div:hover {
-    background: transparent;
+    background: rgba(128, 128, 128, 0.385);
     border-color: var(--color-primary-variant);
     cursor: default;
+    box-shadow: 0 0 15px blue, 0 0 15px var(--color-primary-variant);
 }
 
 .experience__container > div h3 {
@@ -38,6 +39,10 @@
 .experience__detail-icon {
     margin-top: 6px;
     color: var(--color-primary);
+}
+
+h2 {
+    color: white;
 }
 
 /* ============== MIDEA DIVECES ============== */
